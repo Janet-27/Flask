@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "<h1>Hello, World!</h1><p>Welcome to Flask!</p>"
+    return "Janet's Flask Application"
 
 def open_browser():
     webbrowser.open_new("http://127.0.0.1:5000/")
